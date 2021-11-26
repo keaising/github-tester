@@ -2,6 +2,6 @@ on: push
 
 jobs:
   release:
-    uses: keaising/github/.github/workflows/release-go.yml
+    uses: keaising/github/.github/workflows/release-go.yml@master
     with:
       name: tester
