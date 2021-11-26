@@ -1,0 +1,7 @@
+on: push
+
+jobs:
+  release:
+    uses: keaising/github/.github/workflows/release-go.yml
+    with:
+      name: tester
